@@ -1,7 +1,7 @@
 describe "GIT" do
 # describe "STAGING AND COMMITTING CHANGES:" do
   it "1. What is the syntax for staging a change in index.html if it is in the root dir?" do
-    answer = ""
+    answer = "git add index.html"
     encoded_answer = "bf338924ddc9ff4eb0c685a794960e0c4ffade2c"
     expect(encode(answer)).to eq(encoded_answer)
   end
@@ -14,7 +14,7 @@ describe "GIT" do
 
   it "3. What is the syntax for committing all staged changes with the message
       'update link styles'?" do
-    answer = "git commit -m"
+    answer = 
     encoded_answer = "8d06e2760cda4755f387db0db0e6c425b2ece976"
     expect(encode(answer)).to eq(encoded_answer)
   end
